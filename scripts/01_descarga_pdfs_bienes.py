@@ -58,7 +58,10 @@ TIMEOUT_CARGA_FICHA = 10  # segundos que espera Selenium a que aparezca el conte
 TIMEOUT_DESCARGA_PDF = 15
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (proyecto académico - análisis de datos abiertos del Congreso)"
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    )
 }
 
 
@@ -200,6 +203,7 @@ def descargar_pdfs(df: pd.DataFrame):
     PDFS_DIR.mkdir(parents=True, exist_ok=True)
     session = requests.Session()
     session.headers.update(HEADERS)
+    session.headers.update({"Referer": "https://www.congreso.es/es/busqueda-de-diputados"})
 
     for _, fila in df.iterrows():
         if not fila["url_pdf_bienes"]:
@@ -213,6 +217,12 @@ def descargar_pdfs(df: pd.DataFrame):
         try:
             resp = session.get(fila["url_pdf_bienes"], timeout=TIMEOUT_DESCARGA_PDF)
             resp.raise_for_status()
+
+            if not resp.content.startswith(b"%PDF"):
+                print(f"[cod={fila['codParlamentario']}] respuesta no es un PDF válido, se salta "
+                      f"(probablemente bloqueo del proxy, revisar manualmente)")
+                continue
+
             destino.write_bytes(resp.content)
             print(f"[cod={fila['codParlamentario']}] PDF descargado: {destino.name}")
         except requests.RequestException as e:
