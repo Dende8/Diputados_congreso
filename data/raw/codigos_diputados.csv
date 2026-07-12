@@ -1,6 +1,425 @@
-﻿codParlamentario,nombre,url_pdf_bienes,num_declaraciones_encontradas
-315,Cayetana Álvarez de Toledo Peralta-Ramos,https://www.congreso.es/docbienes/leg15/000311/000311_000_e_0001306_20230816.pdf,1
-316,Alberto Asarta Cuevas,https://www.congreso.es/docbienes/leg15/000349/000349_000_e_0001697_20230914.pdf,1
-317,Santiago Abascal Conde,https://www.congreso.es/docbienes/leg15/000316/000316_001_e_0001872_20230921.pdf,2
-318,Joaquín Robles López,https://www.congreso.es/docbienes/leg15/000305/000305_000_e_0001271_20230816.pdf,1
-319,María Soledad Cruz-Guzmán García,https://www.congreso.es/docbienes/leg15/000306/000306_000_e_0001289_20230816.pdf,1
+﻿codParlamentario,nombre,fecha_declaracion,url_pdf_bienes
+1,Héctor Palencia Rubio,31/07/2023,https://www.congreso.es/docbienes/leg15/000002/000002_000_e_0000007_20230731.pdf
+2,Tomás Cabezón Casas,31/07/2023,https://www.congreso.es/docbienes/leg15/000001/000001_000_e_0000005_20230731.pdf
+4,Francisco José Alcaraz Martos,01/08/2023,https://www.congreso.es/docbienes/leg15/000003/000003_000_e_0000012_20230801.pdf
+5,María de las Nieves Ramírez Moreno,01/08/2023,https://www.congreso.es/docbienes/leg15/000005/000005_000_e_0000019_20230801.pdf
+5,María de las Nieves Ramírez Moreno,23/10/2023,https://www.congreso.es/docbienes/leg15/000005/000005_001_e_0002977_20231023.pdf
+7,Agustín Conde Bajén,01/08/2023,https://www.congreso.es/docbienes/leg15/000007/000007_000_e_0000031_20230801.pdf
+8,Isabel María Pérez Ortiz,01/08/2023,https://www.congreso.es/docbienes/leg15/000008/000008_000_e_0000034_20230801.pdf
+9,Juan Bravo Baena,16/08/2023,https://www.congreso.es/docbienes/leg15/000339/000339_000_e_0001412_20230816.pdf
+10,Luis Carlos Sahuquillo García,01/08/2023,https://www.congreso.es/docbienes/leg15/000009/000009_000_e_0000038_20230801.pdf
+10,Luis Carlos Sahuquillo García,16/11/2023,https://www.congreso.es/docbienes/leg15/000009/000009_001_e_0004273_20231116.pdf
+11,Luis Alfonso Rey de las Heras,01/08/2023,https://www.congreso.es/docbienes/leg15/000010/000010_000_e_0000042_20230801.pdf
+11,Luis Alfonso Rey de las Heras,16/09/2024,https://www.congreso.es/docbienes/leg15/000010/000010_001_e_0038180_20240916.pdf
+12,Carlos Rojas García,16/08/2023,https://www.congreso.es/docbienes/leg15/000014/000014_000_e_0001375_20230816.pdf
+14,Pedro Fernández Hernández,02/08/2023,https://www.congreso.es/docbienes/leg15/000012/000012_000_e_0000053_20230802.pdf
+15,María Carmen Castilla Álvarez,02/08/2023,https://www.congreso.es/docbienes/leg15/000013/000013_000_e_0000059_20230802.pdf
+16,Daniel Pérez Osma,02/08/2023,https://www.congreso.es/docbienes/leg15/000016/000016_000_e_0000074_20230802.pdf
+17,Daniel Senderos Oraá,02/08/2023,https://www.congreso.es/docbienes/leg15/000017/000017_000_e_0000076_20230802.pdf
+18,Juan Carlos Jerez Antequera,02/08/2023,https://www.congreso.es/docbienes/leg15/000022/000022_000_e_0000093_20230802.pdf
+19,María Mercè Perea i Conillas,02/08/2023,https://www.congreso.es/docbienes/leg15/000015/000015_000_e_0000073_20230802.pdf
+21,Francisco Aranda Vargas,02/08/2023,https://www.congreso.es/docbienes/leg15/000020/000020_000_e_0000087_20230802.pdf
+23,Ferran Verdejo Vicente,02/08/2023,https://www.congreso.es/docbienes/leg15/000021/000021_000_e_0000092_20230802.pdf
+24,David Serrada Pariente,02/08/2023,https://www.congreso.es/docbienes/leg15/000019/000019_000_e_0000084_20230802.pdf
+24,David Serrada Pariente,02/04/2025,https://www.congreso.es/docbienes/leg15/000019/000019_001_e_0063713_20250402.pdf
+25,Manuel García Félix,02/08/2023,https://www.congreso.es/docbienes/leg15/000026/000026_000_e_0000120_20230802.pdf
+26,Miguel Tellado Filgueira,16/08/2023,https://www.congreso.es/docbienes/leg15/000338/000338_000_e_0001409_20230816.pdf
+26,Miguel Tellado Filgueira,09/09/2025,https://www.congreso.es/docbienes/leg15/000338/000338_001_e_0078322_20250909.pdf
+27,Álvaro Pérez López,02/08/2023,https://www.congreso.es/docbienes/leg15/000025/000025_000_e_0000116_20230802.pdf
+28,Ester Muñoz de la Iglesia,16/08/2023,https://www.congreso.es/docbienes/leg15/000333/000333_000_e_0001395_20230816.pdf
+28,Ester Muñoz de la Iglesia,03/12/2025,https://www.congreso.es/docbienes/leg15/000333/000333_001_e_0091694_20251203.pdf
+29,Antidio Fagúndez Campo,02/08/2023,https://www.congreso.es/docbienes/leg15/000024/000024_000_e_0000108_20230802.pdf
+30,Silvia Franco González,02/08/2023,https://www.congreso.es/docbienes/leg15/000029/000029_000_e_0000131_20230802.pdf
+30,Silvia Franco González,22/07/2025,https://www.congreso.es/docbienes/leg15/000029/000029_001_e_0076441_20250722.pdf
+31,Andrea Fernández Benéitez,08/08/2023,https://www.congreso.es/docbienes/leg15/000160/000160_000_e_0000684_20230808.pdf
+32,Celso Luis Delgado Arce,02/08/2023,https://www.congreso.es/docbienes/leg15/000031/000031_000_e_0000148_20230802.pdf
+33,Noemí Santana Perera,02/08/2023,https://www.congreso.es/docbienes/leg15/000030/000030_000_e_0000147_20230802.pdf
+34,Elvira Velasco Morillo,02/08/2023,https://www.congreso.es/docbienes/leg15/000032/000032_000_e_0000150_20230802.pdf
+35,José Zaragoza Alonso,02/08/2023,https://www.congreso.es/docbienes/leg15/000027/000027_000_e_0000128_20230802.pdf
+38,Cristina Valido García,02/08/2023,https://www.congreso.es/docbienes/leg15/000033/000033_000_e_0000153_20230802.pdf
+38,Cristina Valido García,29/10/2025,https://www.congreso.es/docbienes/leg15/000033/000033_001_e_0086940_20251029.pdf
+39,María Araceli Poblador Pacheco,02/08/2023,https://www.congreso.es/docbienes/leg15/000039/000039_000_e_0000177_20230802.pdf
+40,Juan Francisco Serrano Martínez,10/08/2023,https://www.congreso.es/docbienes/leg15/000237/000237_000_e_0001001_20230810.pdf
+41,Beatriz Jiménez Linuesa,02/08/2023,https://www.congreso.es/docbienes/leg15/000035/000035_000_e_0000166_20230802.pdf
+42,Irene Garrido Valenzuela,02/08/2023,https://www.congreso.es/docbienes/leg15/000041/000041_000_e_0000184_20230802.pdf
+43,Bella Verano Domínguez,16/08/2023,https://www.congreso.es/docbienes/leg15/000335/000335_000_e_0001399_20230816.pdf
+44,María Cuesta Rodríguez,02/08/2023,https://www.congreso.es/docbienes/leg15/000044/000044_000_e_0000190_20230802.pdf
+45,Pablo Pérez Coronado,02/08/2023,https://www.congreso.es/docbienes/leg15/000037/000037_000_e_0000170_20230802.pdf
+46,Óscar Ramajo Prada,02/08/2023,https://www.congreso.es/docbienes/leg15/000036/000036_000_e_0000169_20230802.pdf
+47,Cristina Teniente Sánchez,02/08/2023,https://www.congreso.es/docbienes/leg15/000043/000043_000_e_0000189_20230802.pdf
+48,Macarena Lorente Anaya,02/08/2023,https://www.congreso.es/docbienes/leg15/000042/000042_000_e_0000186_20230802.pdf
+49,Maribel García López,02/08/2023,https://www.congreso.es/docbienes/leg15/000038/000038_000_e_0000175_20230802.pdf
+50,Raúl Díaz Marín,02/08/2023,https://www.congreso.es/docbienes/leg15/000040/000040_000_e_0000181_20230802.pdf
+50,Raúl Díaz Marín,17/06/2025,https://www.congreso.es/docbienes/leg15/000040/000040_001_e_0073129_20250617.pdf
+51,Patricia Rodríguez Calleja,02/08/2023,https://www.congreso.es/docbienes/leg15/000045/000045_000_e_0000194_20230802.pdf
+52,Juan José Aizcorbe Torra,02/08/2023,https://www.congreso.es/docbienes/leg15/000046/000046_000_e_0000200_20230802.pdf
+53,José María Sánchez García,03/08/2023,https://www.congreso.es/docbienes/leg15/000094/000094_000_e_0000393_20230803.pdf
+54,Artemi Rallo Lombarte,03/08/2023,https://www.congreso.es/docbienes/leg15/000051/000051_000_e_0000225_20230803.pdf
+55,Carlos Javier Floriano Corrales,03/08/2023,https://www.congreso.es/docbienes/leg15/000054/000054_000_e_0000235_20230803.pdf
+58,Susana Ros Martínez,03/08/2023,https://www.congreso.es/docbienes/leg15/000048/000048_000_e_0000212_20230803.pdf
+59,Antonio Román Jasanada,03/08/2023,https://www.congreso.es/docbienes/leg15/000053/000053_000_e_0000233_20230803.pdf
+60,María Lourdes Ramírez Martín,03/08/2023,https://www.congreso.es/docbienes/leg15/000055/000055_000_e_0000238_20230803.pdf
+61,Pablo Sáez Alonso-Muñumer,03/08/2023,https://www.congreso.es/docbienes/leg15/000050/000050_000_e_0000224_20230803.pdf
+62,Andreu Martín Martínez,03/08/2023,https://www.congreso.es/docbienes/leg15/000052/000052_000_e_0000232_20230803.pdf
+63,María Luz Martínez Seijo,03/08/2023,https://www.congreso.es/docbienes/leg15/000056/000056_000_e_0000241_20230803.pdf
+63,María Luz Martínez Seijo,17/06/2026,https://www.congreso.es/docbienes/leg15/000056/000056_000_e_0119378_20260617.pdf
+64,José Luis Aceves Galindo,03/08/2023,https://www.congreso.es/docbienes/leg15/000057/000057_000_e_0000248_20230803.pdf
+65,Carmen Fúnez de Gregorio,03/08/2023,https://www.congreso.es/docbienes/leg15/000058/000058_000_e_0000258_20230803.pdf
+67,Belén Hoyo Juliá,03/08/2023,https://www.congreso.es/docbienes/leg15/000059/000059_000_e_0000263_20230803.pdf
+68,Juan Carlos Ruiz Boix,03/08/2023,https://www.congreso.es/docbienes/leg15/000060/000060_000_e_0000269_20230803.pdf
+69,Sofía Acedo Reyes,03/08/2023,https://www.congreso.es/docbienes/leg15/000066/000066_000_e_0000297_20230803.pdf
+70,José Ramírez del Río,03/08/2023,https://www.congreso.es/docbienes/leg15/000061/000061_000_e_0000271_20230803.pdf
+71,María Isabel Prieto Serrano,03/08/2023,https://www.congreso.es/docbienes/leg15/000064/000064_000_e_0000289_20230803.pdf
+72,María Carmen Sánchez Díaz,03/08/2023,https://www.congreso.es/docbienes/leg15/000072/000072_000_e_0000321_20230803.pdf
+73,Ángel López Maraver,03/08/2023,https://www.congreso.es/docbienes/leg15/000062/000062_000_e_0000276_20230803.pdf
+74,Pedro Ignacio Gallardo Barrena,03/08/2023,https://www.congreso.es/docbienes/leg15/000084/000084_000_e_0000360_20230803.pdf
+75,Ana Cobo Carmona,03/08/2023,https://www.congreso.es/docbienes/leg15/000063/000063_000_e_0000278_20230803.pdf
+76,María del Mar Vázquez Jiménez,03/08/2023,https://www.congreso.es/docbienes/leg15/000083/000083_000_e_0000357_20230803.pdf
+77,Jordi Salvador i Duch,03/08/2023,https://www.congreso.es/docbienes/leg15/000073/000073_000_e_0000324_20230803.pdf
+78,Juan Antonio Valero Morales,03/08/2023,https://www.congreso.es/docbienes/leg15/000075/000075_000_e_0000331_20230803.pdf
+79,Amador Marqués Atés,03/08/2023,https://www.congreso.es/docbienes/leg15/000068/000068_000_e_0000303_20230803.pdf
+80,Montse Mínguez García,03/08/2023,https://www.congreso.es/docbienes/leg15/000067/000067_000_e_0000300_20230803.pdf
+81,Inés Plaza García,03/08/2023,https://www.congreso.es/docbienes/leg15/000065/000065_000_e_0000293_20230803.pdf
+82,María Mercedes Fernández González,03/08/2023,https://www.congreso.es/docbienes/leg15/000076/000076_000_e_0000333_20230803.pdf
+82,María Mercedes Fernández González,14/05/2025,https://www.congreso.es/docbienes/leg15/000076/000076_001_e_0068635_20250514.pdf
+84,Cristóbal Garre Murcia,03/08/2023,https://www.congreso.es/docbienes/leg15/000090/000090_000_e_0000383_20230803.pdf
+85,Mario Cortés Carballo,03/08/2023,https://www.congreso.es/docbienes/leg15/000077/000077_000_e_0000339_20230803.pdf
+85,Mario Cortés Carballo,26/02/2026,https://www.congreso.es/docbienes/leg15/000077/000077_001_e_0103185_20260226.pdf
+86,Esther Gil de Reboleño Lastortres,03/08/2023,https://www.congreso.es/docbienes/leg15/000080/000080_000_e_0000350_20230803.pdf
+87,Lander Martínez Hierro,03/08/2023,https://www.congreso.es/docbienes/leg15/000086/000086_000_e_0000363_20230803.pdf
+88,Isabel Gema Pérez Recuerda,03/08/2023,https://www.congreso.es/docbienes/leg15/000070/000070_000_e_0000316_20230803.pdf
+88,Isabel Gema Pérez Recuerda,10/07/2025,https://www.congreso.es/docbienes/leg15/000070/000070_001_e_0075628_20250710.pdf
+89,Ricardo Tarno Blanco,03/08/2023,https://www.congreso.es/docbienes/leg15/000071/000071_000_e_0000320_20230803.pdf
+89,Ricardo Tarno Blanco,17/09/2024,https://www.congreso.es/docbienes/leg15/000071/000071_001_e_0038528_20240917.pdf
+89,Ricardo Tarno Blanco,24/02/2026,https://www.congreso.es/docbienes/leg15/000071/000071_001_e_0102207_20260224.pdf
+90,Óscar Puente Santiago,03/08/2023,https://www.congreso.es/docbienes/leg15/000074/000074_000_e_0000328_20230803.pdf
+90,Óscar Puente Santiago,15/07/2025,https://www.congreso.es/docbienes/leg15/000074/000074_001_e_0075932_20250715.pdf
+91,Luisa Sanz Martínez,03/08/2023,https://www.congreso.es/docbienes/leg15/000085/000085_000_e_0000361_20230803.pdf
+92,Txema Guijarro García,03/08/2023,https://www.congreso.es/docbienes/leg15/000093/000093_000_e_0000391_20230803.pdf
+93,Álvaro Morales Álvarez,03/08/2023,https://www.congreso.es/docbienes/leg15/000078/000078_000_e_0000343_20230803.pdf
+94,Arnau Ramírez Carner,03/08/2023,https://www.congreso.es/docbienes/leg15/000088/000088_000_e_0000379_20230803.pdf
+94,Arnau Ramírez Carner,30/10/2023,https://www.congreso.es/docbienes/leg15/000088/000088_001_e_0003436_20231030.pdf
+95,Esther Peña Camarero,03/08/2023,https://www.congreso.es/docbienes/leg15/000079/000079_000_e_0000347_20230803.pdf
+96,Manuel Arribas Maroto,03/08/2023,https://www.congreso.es/docbienes/leg15/000082/000082_000_e_0000356_20230803.pdf
+98,Gonzalo Redondo Cárdenas,03/08/2023,https://www.congreso.es/docbienes/leg15/000089/000089_000_e_0000381_20230803.pdf
+98,Gonzalo Redondo Cárdenas,24/07/2024,https://www.congreso.es/docbienes/leg15/000089/000089_001_e_0034619_20240724.pdf
+99,Javier Merino Martínez,03/08/2023,https://www.congreso.es/docbienes/leg15/000092/000092_000_e_0000387_20230803.pdf
+100,César Joaquín Ramos Esteban,03/08/2023,https://www.congreso.es/docbienes/leg15/000087/000087_000_e_0000374_20230803.pdf
+100,César Joaquín Ramos Esteban,10/10/2025,https://www.congreso.es/docbienes/leg15/000087/000087_001_e_0084823_20251010.pdf
+101,Santi Rodríguez Serra,03/08/2023,https://www.congreso.es/docbienes/leg15/000091/000091_000_e_0000385_20230803.pdf
+102,Antonio Martínez Gómez,04/08/2023,https://www.congreso.es/docbienes/leg15/000096/000096_000_e_0000414_20230804.pdf
+103,Trinidad Carmen Argota Castro,04/08/2023,https://www.congreso.es/docbienes/leg15/000095/000095_000_e_0000406_20230804.pdf
+104,David García Gomis,04/08/2023,https://www.congreso.es/docbienes/leg15/000097/000097_000_e_0000416_20230804.pdf
+105,Adriana Maldonado López,04/08/2023,https://www.congreso.es/docbienes/leg15/000098/000098_000_e_0000419_20230804.pdf
+106,Carmen Andrés Añón,04/08/2023,https://www.congreso.es/docbienes/leg15/000099/000099_000_e_0000422_20230804.pdf
+107,Félix De las Cuevas Cortés,04/08/2023,https://www.congreso.es/docbienes/leg15/000101/000101_000_e_0000429_20230804.pdf
+108,Alberto Fabra Part,04/08/2023,https://www.congreso.es/docbienes/leg15/000100/000100_000_e_0000424_20230804.pdf
+109,Óscar Clavell López,04/08/2023,https://www.congreso.es/docbienes/leg15/000103/000103_000_e_0000436_20230804.pdf
+109,Óscar Clavell López,02/02/2026,https://www.congreso.es/docbienes/leg15/000103/000103_001_e_0096608_20260202.pdf
+110,Marc Lamuà Estañol,04/08/2023,https://www.congreso.es/docbienes/leg15/000102/000102_000_e_0000432_20230804.pdf
+111,Blanca Cercas Mena,04/08/2023,https://www.congreso.es/docbienes/leg15/000106/000106_000_e_0000451_20230804.pdf
+112,Rafaela Romero Pozo,04/08/2023,https://www.congreso.es/docbienes/leg15/000107/000107_000_e_0000454_20230804.pdf
+113,María Luisa García Gurrutxaga,16/08/2023,https://www.congreso.es/docbienes/leg15/000292/000292_000_e_0001216_20230816.pdf
+115,Javier José Folch Blanc,04/08/2023,https://www.congreso.es/docbienes/leg15/000108/000108_000_e_0000460_20230804.pdf
+116,Elisa Garrido Jiménez,04/08/2023,https://www.congreso.es/docbienes/leg15/000105/000105_000_e_0000448_20230804.pdf
+117,Ignacio Gil Lázaro,04/08/2023,https://www.congreso.es/docbienes/leg15/000110/000110_000_e_0000467_20230804.pdf
+118,José Antonio Bermúdez de Castro Fernández,04/08/2023,https://www.congreso.es/docbienes/leg15/000109/000109_000_e_0000464_20230804.pdf
+118,José Antonio Bermúdez de Castro Fernández,11/12/2024,https://www.congreso.es/docbienes/leg15/000109/000109_001_e_0051369_20241211.pdf
+119,Violante Tomás Olivares,04/08/2023,https://www.congreso.es/docbienes/leg15/000111/000111_000_e_0000471_20230804.pdf
+119,Violante Tomás Olivares,16/09/2025,https://www.congreso.es/docbienes/leg15/000111/000111_001_e_0079969_20250916.pdf
+120,Patxi López Álvarez,17/08/2023,https://www.congreso.es/docbienes/leg15/000344/000344_000_e_0001454_20230817.pdf
+121,Jacobo González-Robatto Perote,04/08/2023,https://www.congreso.es/docbienes/leg15/000112/000112_000_e_0000476_20230804.pdf
+122,Rafael Cofiño Fernández,16/08/2023,https://www.congreso.es/docbienes/leg15/000114/000114_000_e_0001215_20230816.pdf
+124,Emilio Jesús Del Valle Rodríguez,07/08/2023,https://www.congreso.es/docbienes/leg15/000115/000115_000_e_0000495_20230807.pdf
+125,Enrique Fernando Santiago Romero,07/08/2023,https://www.congreso.es/docbienes/leg15/000116/000116_000_e_0000506_20230807.pdf
+128,José Antonio Rodríguez Salas,07/08/2023,https://www.congreso.es/docbienes/leg15/000120/000120_000_e_0000518_20230807.pdf
+129,Modesto Pose Mesura,07/08/2023,https://www.congreso.es/docbienes/leg15/000121/000121_000_e_0000519_20230807.pdf
+130,Herminio Rufino Sancho Íñiguez,07/08/2023,https://www.congreso.es/docbienes/leg15/000122/000122_000_e_0000521_20230807.pdf
+130,Herminio Rufino Sancho Íñiguez,28/07/2025,https://www.congreso.es/docbienes/leg15/000122/000122_001_e_0076755_20250728.pdf
+130,Herminio Rufino Sancho Íñiguez,04/06/2026,https://www.congreso.es/docbienes/leg15/000122/000122_001_e_0117759_20260604.pdf
+131,Juan Diego Requena Ruiz,07/08/2023,https://www.congreso.es/docbienes/leg15/000119/000119_000_e_0000516_20230807.pdf
+132,Joan Mesquida Mayans,07/08/2023,https://www.congreso.es/docbienes/leg15/000127/000127_000_e_0000547_20230807.pdf
+133,Ada Santana Aguilera,07/08/2023,https://www.congreso.es/docbienes/leg15/000125/000125_000_e_0000543_20230807.pdf
+134,Alicia Álvarez González,07/08/2023,https://www.congreso.es/docbienes/leg15/000124/000124_000_e_0000540_20230807.pdf
+136,Cristina Agüera Gago,07/08/2023,https://www.congreso.es/docbienes/leg15/000132/000132_000_e_0000562_20230807.pdf
+136,Cristina Agüera Gago,29/05/2024,https://www.congreso.es/docbienes/leg15/000132/000132_001_e_0027319_20240529.pdf
+136,Cristina Agüera Gago,25/09/2025,https://www.congreso.es/docbienes/leg15/000132/000132_001_e_0082176_20250925.pdf
+137,Isabel Iniesta Egido,07/08/2023,https://www.congreso.es/docbienes/leg15/000131/000131_000_e_0000559_20230807.pdf
+138,Emilio Sáez Cruz,07/08/2023,https://www.congreso.es/docbienes/leg15/000129/000129_000_e_0000557_20230807.pdf
+139,María Adrio Taracido,07/08/2023,https://www.congreso.es/docbienes/leg15/000128/000128_000_e_0000550_20230807.pdf
+140,Alfonso Rodríguez Gómez de Celis,07/08/2023,https://www.congreso.es/docbienes/leg15/000126/000126_000_e_0000544_20230807.pdf
+140,Alfonso Rodríguez Gómez de Celis,28/05/2026,https://www.congreso.es/docbienes/leg15/000126/000126_001_e_0117139_20260528.pdf
+141,Javier Noriega Gómez,07/08/2023,https://www.congreso.es/docbienes/leg15/000130/000130_000_e_0000558_20230807.pdf
+142,Luc Andre Diouf Dioh,11/09/2023,https://www.congreso.es/docbienes/leg15/000348/000348_000_e_0001661_20230911.pdf
+143,Beatriz Álvarez Fanjul,07/08/2023,https://www.congreso.es/docbienes/leg15/000133/000133_000_e_0000569_20230807.pdf
+145,Isabel María Borrego Cortés,08/08/2023,https://www.congreso.es/docbienes/leg15/000136/000136_000_e_0000587_20230808.pdf
+145,Isabel María Borrego Cortés,24/07/2024,https://www.congreso.es/docbienes/leg15/000136/000136_001_e_0034590_20240724.pdf
+145,Isabel María Borrego Cortés,19/03/2026,https://www.congreso.es/docbienes/leg15/000136/000136_001_e_0107159_20260319.pdf
+146,Margarita Martín Rodríguez,08/08/2023,https://www.congreso.es/docbienes/leg15/000137/000137_000_e_0000589_20230808.pdf
+148,Sergio Sayas López,08/08/2023,https://www.congreso.es/docbienes/leg15/000138/000138_000_e_0000593_20230808.pdf
+148,Sergio Sayas López,21/01/2025,https://www.congreso.es/docbienes/leg15/000138/000138_001_e_0054066_20250121.pdf
+149,Alberto Catalán Higueras,08/08/2023,https://www.congreso.es/docbienes/leg15/000139/000139_000_e_0000595_20230808.pdf
+149,Alberto Catalán Higueras,23/05/2024,https://www.congreso.es/docbienes/leg15/000139/000139_001_e_0026617_20240523.pdf
+149,Alberto Catalán Higueras,09/09/2025,https://www.congreso.es/docbienes/leg15/000139/000139_001_e_0078927_20250909.pdf
+150,Pedro Samuel Martín García,08/08/2023,https://www.congreso.es/docbienes/leg15/000142/000142_000_e_0000610_20230808.pdf
+150,Pedro Samuel Martín García,11/06/2025,https://www.congreso.es/docbienes/leg15/000142/000142_001_e_0072406_20250611.pdf
+151,María Jesús Moro Almaraz,08/08/2023,https://www.congreso.es/docbienes/leg15/000140/000140_000_e_0000600_20230808.pdf
+152,Carlos Alberto Sánchez Ojeda,08/08/2023,https://www.congreso.es/docbienes/leg15/000144/000144_000_e_0000628_20230808.pdf
+154,Rafaela Crespín Rubio,08/08/2023,https://www.congreso.es/docbienes/leg15/000149/000149_000_e_0000645_20230808.pdf
+155,Laura María Lima García,08/08/2023,https://www.congreso.es/docbienes/leg15/000145/000145_000_e_0000631_20230808.pdf
+156,Juan Antonio Rojas Manrique,08/08/2023,https://www.congreso.es/docbienes/leg15/000148/000148_000_e_0000641_20230808.pdf
+157,Engracia Rivera Arias,08/08/2023,https://www.congreso.es/docbienes/leg15/000151/000151_000_e_0000650_20230808.pdf
+159,Carlos Flores Juberías,08/08/2023,https://www.congreso.es/docbienes/leg15/000162/000162_000_e_0000691_20230808.pdf
+160,Cristina Abades Martínez,08/08/2023,https://www.congreso.es/docbienes/leg15/000150/000150_000_e_0000648_20230808.pdf
+161,Jaime Eduardo de Olano Vela,08/08/2023,https://www.congreso.es/docbienes/leg15/000147/000147_000_e_0000640_20230808.pdf
+162,Javier Celaya Brey,08/08/2023,https://www.congreso.es/docbienes/leg15/000153/000153_000_e_0000664_20230808.pdf
+163,Silverio Argüelles García,08/08/2023,https://www.congreso.es/docbienes/leg15/000146/000146_000_e_0000633_20230808.pdf
+163,Silverio Argüelles García,10/10/2023,https://www.congreso.es/docbienes/leg15/000146/000146_001_e_0002403_20231010.pdf
+164,Àgueda Micó Micó,08/08/2023,https://www.congreso.es/docbienes/leg15/000158/000158_000_e_0000678_20230808.pdf
+165,Alberto Ibáñez Mezquita,08/08/2023,https://www.congreso.es/docbienes/leg15/000161/000161_000_e_0000685_20230808.pdf
+166,Nahuel González López,08/08/2023,https://www.congreso.es/docbienes/leg15/000156/000156_000_e_0000671_20230808.pdf
+167,María Luisa Faneca López,08/08/2023,https://www.congreso.es/docbienes/leg15/000155/000155_000_e_0000668_20230808.pdf
+168,Gabriel Cruz Santana,08/08/2023,https://www.congreso.es/docbienes/leg15/000154/000154_000_e_0000667_20230808.pdf
+168,Gabriel Cruz Santana,08/10/2025,https://www.congreso.es/docbienes/leg15/000154/000154_001_e_0084376_20251008.pdf
+169,Martina Velarde Gómez,08/08/2023,https://www.congreso.es/docbienes/leg15/000152/000152_000_e_0000655_20230808.pdf
+170,Patricia Blanquer Alcaraz,08/08/2023,https://www.congreso.es/docbienes/leg15/000157/000157_000_e_0000675_20230808.pdf
+171,Valle Mellado Sierra,08/08/2023,https://www.congreso.es/docbienes/leg15/000159/000159_000_e_0000681_20230808.pdf
+171,Valle Mellado Sierra,23/12/2024,https://www.congreso.es/docbienes/leg15/000159/000159_001_e_0052664_20241223.pdf
+172,Agustín Parra Gallego,08/08/2023,https://www.congreso.es/docbienes/leg15/000164/000164_000_e_0000702_20230808.pdf
+173,Nacho Martín Blanco,08/08/2023,https://www.congreso.es/docbienes/leg15/000166/000166_000_e_0000705_20230808.pdf
+174,Llanos De Luna Tobarra,08/08/2023,https://www.congreso.es/docbienes/leg15/000165/000165_000_e_0000704_20230808.pdf
+175,Rafael Benigno Belmonte Gómez,08/08/2023,https://www.congreso.es/docbienes/leg15/000167/000167_000_e_0000709_20230808.pdf
+175,Rafael Benigno Belmonte Gómez,20/09/2024,https://www.congreso.es/docbienes/leg15/000167/000167_001_e_0038997_20240920.pdf
+175,Rafael Benigno Belmonte Gómez,11/02/2026,https://www.congreso.es/docbienes/leg15/000167/000167_001_e_0099093_20260211.pdf
+176,Alberto Rojo Blas,08/08/2023,https://www.congreso.es/docbienes/leg15/000163/000163_000_e_0000697_20230808.pdf
+177,Maribel Sánchez Torregrosa,08/08/2023,https://www.congreso.es/docbienes/leg15/000169/000169_000_e_0000713_20230808.pdf
+178,Begoña Nasarre Oliva,08/08/2023,https://www.congreso.es/docbienes/leg15/000168/000168_000_e_0000712_20230808.pdf
+180,Ángel Ibáñez Hernando,08/08/2023,https://www.congreso.es/docbienes/leg15/000171/000171_000_e_0000727_20230808.pdf
+180,Ángel Ibáñez Hernando,11/09/2024,https://www.congreso.es/docbienes/leg15/000171/000171_001_e_0037702_20240911.pdf
+181,Miguel Ángel Quintanilla Navarro,09/08/2023,https://www.congreso.es/docbienes/leg15/000172/000172_000_e_0000732_20230809.pdf
+181,Miguel Ángel Quintanilla Navarro,12/03/2025,https://www.congreso.es/docbienes/leg15/000172/000172_001_e_0060447_20250312.pdf
+182,Joaquín Martínez Salmerón,09/08/2023,https://www.congreso.es/docbienes/leg15/000180/000180_000_e_0000769_20230809.pdf
+183,María Pilar Alía Aguado,09/08/2023,https://www.congreso.es/docbienes/leg15/000174/000174_000_e_0000747_20230809.pdf
+184,José Manuel Velasco Retamosa,09/08/2023,https://www.congreso.es/docbienes/leg15/000175/000175_000_e_0000749_20230809.pdf
+185,Francina Armengol Socias,09/08/2023,https://www.congreso.es/docbienes/leg15/000179/000179_000_e_0000765_20230809.pdf
+185,Francina Armengol Socias,11/02/2026,https://www.congreso.es/docbienes/leg15/000179/000179_001_e_0099092_20260211.pdf
+186,Milena Herrera García,09/08/2023,https://www.congreso.es/docbienes/leg15/000173/000173_000_e_0000742_20230809.pdf
+187,María Dolores Corujo Berriel,09/08/2023,https://www.congreso.es/docbienes/leg15/000178/000178_000_e_0000759_20230809.pdf
+188,José Vicente Marí Bosó,09/08/2023,https://www.congreso.es/docbienes/leg15/000176/000176_000_e_0000751_20230809.pdf
+189,Pedro Sánchez Pérez-Castejón,09/08/2023,https://www.congreso.es/docbienes/leg15/000177/000177_000_e_0000756_20230809.pdf
+190,Pepe Mercadal Baquero,09/08/2023,https://www.congreso.es/docbienes/leg15/000183/000183_000_e_0000786_20230809.pdf
+191,Isaura Leal Fernández,09/08/2023,https://www.congreso.es/docbienes/leg15/000181/000181_000_e_0000774_20230809.pdf
+192,Vicenç Vidal Matas,09/08/2023,https://www.congreso.es/docbienes/leg15/000206/000206_000_e_0000873_20230809.pdf
+193,José María Figaredo Álvarez-Sala,09/08/2023,https://www.congreso.es/docbienes/leg15/000186/000186_000_e_0000798_20230809.pdf
+193,José María Figaredo Álvarez-Sala,05/10/2023,https://www.congreso.es/docbienes/leg15/000186/000186_001_e_0002205_20231005.pdf
+194,Ignacio Hoces Íñiguez,09/08/2023,https://www.congreso.es/docbienes/leg15/000185/000185_000_e_0000793_20230809.pdf
+195,Roberto García Morís,09/08/2023,https://www.congreso.es/docbienes/leg15/000182/000182_000_e_0000776_20230809.pdf
+195,Roberto García Morís,02/10/2024,https://www.congreso.es/docbienes/leg15/000182/000182_001_e_0042408_20241002.pdf
+195,Roberto García Morís,20/02/2025,https://www.congreso.es/docbienes/leg15/000182/000182_001_e_0057279_20250220.pdf
+196,Ana Belén Vázquez Blanco,09/08/2023,https://www.congreso.es/docbienes/leg15/000184/000184_000_e_0000788_20230809.pdf
+197,Rosa Quintana Carballo,09/08/2023,https://www.congreso.es/docbienes/leg15/000187/000187_000_e_0000799_20230809.pdf
+198,Tristana María Moraleja Gómez,09/08/2023,https://www.congreso.es/docbienes/leg15/000188/000188_000_e_0000802_20230809.pdf
+199,Pedro Puy Fraga,09/08/2023,https://www.congreso.es/docbienes/leg15/000192/000192_000_e_0000826_20230809.pdf
+199,Pedro Puy Fraga,23/07/2025,https://www.congreso.es/docbienes/leg15/000192/000192_001_e_0076590_20250723.pdf
+200,Marta González Vázquez,09/08/2023,https://www.congreso.es/docbienes/leg15/000189/000189_000_e_0000806_20230809.pdf
+202,Rafael Antonio Hernando Fraile,10/08/2023,https://www.congreso.es/docbienes/leg15/000221/000221_000_e_0000937_20230810.pdf
+203,Lourdes Méndez Monasterio,09/08/2023,https://www.congreso.es/docbienes/leg15/000191/000191_000_e_0000814_20230809.pdf
+204,María Sandra Moneo Díez,09/08/2023,https://www.congreso.es/docbienes/leg15/000190/000190_000_e_0000813_20230809.pdf
+206,Miguel Ángel Sastre Uyá,09/08/2023,https://www.congreso.es/docbienes/leg15/000196/000196_000_e_0000837_20230809.pdf
+207,Jorge Campos Asensi,09/08/2023,https://www.congreso.es/docbienes/leg15/000195/000195_000_e_0000836_20230809.pdf
+208,Enrique Belda Pérez-Pedrero,09/08/2023,https://www.congreso.es/docbienes/leg15/000193/000193_000_e_0000833_20230809.pdf
+209,Elías Bendodo Benasayag,09/08/2023,https://www.congreso.es/docbienes/leg15/000197/000197_000_e_0000842_20230809.pdf
+210,Julia Parra Aparicio,09/08/2023,https://www.congreso.es/docbienes/leg15/000200/000200_000_e_0000856_20230809.pdf
+211,Joaquín Melgarejo Moreno,09/08/2023,https://www.congreso.es/docbienes/leg15/000198/000198_000_e_0000849_20230809.pdf
+212,Sandra Pascual Rocamora,09/08/2023,https://www.congreso.es/docbienes/leg15/000202/000202_000_e_0000859_20230809.pdf
+212,Sandra Pascual Rocamora,29/01/2025,https://www.congreso.es/docbienes/leg15/000202/000202_001_e_0054646_20250129.pdf
+213,Ana Martínez Labella,09/08/2023,https://www.congreso.es/docbienes/leg15/000201/000201_000_e_0000858_20230809.pdf
+214,Tomás Fernández Ríos,09/08/2023,https://www.congreso.es/docbienes/leg15/000199/000199_000_e_0000855_20230809.pdf
+215,Carmen Navarro Lacoba,09/08/2023,https://www.congreso.es/docbienes/leg15/000205/000205_000_e_0000869_20230809.pdf
+216,Macarena Montesinos de Miguel,09/08/2023,https://www.congreso.es/docbienes/leg15/000203/000203_000_e_0000864_20230809.pdf
+216,Macarena Montesinos de Miguel,20/11/2024,https://www.congreso.es/docbienes/leg15/000203/000203_001_e_0049137_20241120.pdf
+217,César Sánchez Pérez,09/08/2023,https://www.congreso.es/docbienes/leg15/000204/000204_000_e_0000866_20230809.pdf
+218,Carmen Martínez Ramírez,10/08/2023,https://www.congreso.es/docbienes/leg15/000207/000207_000_e_0000877_20230810.pdf
+219,Vicent Manuel Sarrià Morell,10/08/2023,https://www.congreso.es/docbienes/leg15/000209/000209_000_e_0000880_20230810.pdf
+220,Marta Trenzano Rubio,10/08/2023,https://www.congreso.es/docbienes/leg15/000208/000208_000_e_0000878_20230810.pdf
+221,Inés Granollers Cunillera,10/08/2023,https://www.congreso.es/docbienes/leg15/000214/000214_000_e_0000909_20230810.pdf
+222,Francesc-Marc Álvaro Vidal,10/08/2023,https://www.congreso.es/docbienes/leg15/000211/000211_000_e_0000900_20230810.pdf
+223,Pilar Vallugera Balañà,10/08/2023,https://www.congreso.es/docbienes/leg15/000212/000212_000_e_0000903_20230810.pdf
+224,Teresa Jordà i Roura,10/08/2023,https://www.congreso.es/docbienes/leg15/000216/000216_000_e_0000913_20230810.pdf
+225,Carlos Martín Urriza,10/08/2023,https://www.congreso.es/docbienes/leg15/000220/000220_000_e_0000936_20230810.pdf
+228,Juan Antonio González Gracia,10/08/2023,https://www.congreso.es/docbienes/leg15/000217/000217_000_e_0000915_20230810.pdf
+229,Rafael Simancas Simancas,10/08/2023,https://www.congreso.es/docbienes/leg15/000215/000215_000_e_0000911_20230810.pdf
+231,Caridad Rives Arcayna,10/08/2023,https://www.congreso.es/docbienes/leg15/000226/000226_000_e_0000965_20230810.pdf
+232,Sergio Gutiérrez Prieto,10/08/2023,https://www.congreso.es/docbienes/leg15/000222/000222_000_e_0000938_20230810.pdf
+234,María de las Mercedes Cantalapiedra Álvarez,14/08/2023,https://www.congreso.es/docbienes/leg15/000264/000264_000_e_0001107_20230814.pdf
+235,Jimena Delgado-Taramona Hernández,10/08/2023,https://www.congreso.es/docbienes/leg15/000229/000229_000_e_0000973_20230810.pdf
+236,Pedro Muñoz Abrines,10/08/2023,https://www.congreso.es/docbienes/leg15/000219/000219_000_e_0000935_20230810.pdf
+238,Néstor Rego Candamil,10/08/2023,https://www.congreso.es/docbienes/leg15/000224/000224_000_e_0000944_20230810.pdf
+239,Isidre Gavin i Valls,10/08/2023,https://www.congreso.es/docbienes/leg15/000240/000240_000_e_0001007_20230810.pdf
+241,Míriam Nogueras i Camero,10/08/2023,https://www.congreso.es/docbienes/leg15/000228/000228_000_e_0000971_20230810.pdf
+242,Josep Maria Cervera Pinart,10/08/2023,https://www.congreso.es/docbienes/leg15/000227/000227_000_e_0000968_20230810.pdf
+243,Pilar Calvo Gómez,10/08/2023,https://www.congreso.es/docbienes/leg15/000231/000231_000_e_0000989_20230810.pdf
+244,Josep Maria Cruset Domènech,10/08/2023,https://www.congreso.es/docbienes/leg15/000232/000232_000_e_0000990_20230810.pdf
+245,Marta Madrenas i Mir,10/08/2023,https://www.congreso.es/docbienes/leg15/000238/000238_000_e_0001005_20230810.pdf
+246,Esperanza Reynal Reillo,10/08/2023,https://www.congreso.es/docbienes/leg15/000235/000235_000_e_0000998_20230810.pdf
+246,Esperanza Reynal Reillo,18/01/2024,https://www.congreso.es/docbienes/leg15/000235/000235_001_e_0008540_20240118.pdf
+248,Fernando De Rosa Torner,10/08/2023,https://www.congreso.es/docbienes/leg15/000230/000230_000_e_0000979_20230810.pdf
+249,Blanca Armario González,10/08/2023,https://www.congreso.es/docbienes/leg15/000241/000241_000_e_0001014_20230810.pdf
+249,Blanca Armario González,11/12/2024,https://www.congreso.es/docbienes/leg15/000241/000241_001_e_0051258_20241211.pdf
+250,Pedro Navarro López,10/08/2023,https://www.congreso.es/docbienes/leg15/000233/000233_000_e_0000991_20230810.pdf
+252,Javier Alfonso Cendón,10/08/2023,https://www.congreso.es/docbienes/leg15/000236/000236_000_e_0000999_20230810.pdf
+253,Félix Bolaños García,10/08/2023,https://www.congreso.es/docbienes/leg15/000242/000242_000_e_0001017_20230810.pdf
+254,Alma Alfonso Silvestre,10/08/2023,https://www.congreso.es/docbienes/leg15/000245/000245_000_e_0001027_20230810.pdf
+255,Guillermo Mariscal Anaya,10/08/2023,https://www.congreso.es/docbienes/leg15/000244/000244_000_e_0001023_20230810.pdf
+255,Guillermo Mariscal Anaya,27/12/2024,https://www.congreso.es/docbienes/leg15/000244/000244_001_e_0052800_20241227.pdf
+256,Andrés Alberto Rodríguez Almeida,10/08/2023,https://www.congreso.es/docbienes/leg15/000246/000246_000_e_0001029_20230810.pdf
+257,Obdulia Taboadela Álvarez,11/08/2023,https://www.congreso.es/docbienes/leg15/000247/000247_000_e_0001034_20230811.pdf
+257,Obdulia Taboadela Álvarez,21/12/2023,https://www.congreso.es/docbienes/leg15/000247/000247_001_e_0006798_20231221.pdf
+257,Obdulia Taboadela Álvarez,03/04/2025,https://www.congreso.es/docbienes/leg15/000247/000247_001_e_0063789_20250403.pdf
+258,Borja Sémper Pascual,06/09/2023,https://www.congreso.es/docbienes/leg15/000347/000347_000_e_0001598_20230906.pdf
+259,Carlos Aragonés Mendiguchía,11/08/2023,https://www.congreso.es/docbienes/leg15/000250/000250_000_e_0001053_20230811.pdf
+260,Bartolomé Madrid Olmo,11/08/2023,https://www.congreso.es/docbienes/leg15/000252/000252_000_e_0001058_20230811.pdf
+262,Ione Belarra Urteaga,11/08/2023,https://www.congreso.es/docbienes/leg15/000248/000248_000_e_0001042_20230811.pdf
+263,Manuel Mariscal Zabala,11/08/2023,https://www.congreso.es/docbienes/leg15/000251/000251_000_e_0001054_20230811.pdf
+264,Ignacio López Cano,11/08/2023,https://www.congreso.es/docbienes/leg15/000253/000253_000_e_0001061_20230811.pdf
+264,Ignacio López Cano,05/08/2025,https://www.congreso.es/docbienes/leg15/000253/000253_001_e_0077236_20250805.pdf
+266,Carlos García Adanero,11/08/2023,https://www.congreso.es/docbienes/leg15/000254/000254_000_e_0001067_20230811.pdf
+268,Francisco Sierra Caballero,14/08/2023,https://www.congreso.es/docbienes/leg15/000260/000260_000_e_0001090_20230814.pdf
+269,Fèlix Alonso Cantorné,14/08/2023,https://www.congreso.es/docbienes/leg15/000257/000257_000_e_0001081_20230814.pdf
+270,Jaime Miguel De los Santos González,14/08/2023,https://www.congreso.es/docbienes/leg15/000258/000258_000_e_0001085_20230814.pdf
+271,Cristina Narbona Ruiz,14/08/2023,https://www.congreso.es/docbienes/leg15/000259/000259_000_e_0001087_20230814.pdf
+272,Lídia Guinart Moreno,14/08/2023,https://www.congreso.es/docbienes/leg15/000262/000262_000_e_0001098_20230814.pdf
+273,Lázaro Azorín Salar,14/08/2023,https://www.congreso.es/docbienes/leg15/000261/000261_000_e_0001096_20230814.pdf
+273,Lázaro Azorín Salar,23/10/2023,https://www.congreso.es/docbienes/leg15/000261/000261_001_e_0002978_20231023.pdf
+276,Raquel Clemente Muñoz,14/08/2023,https://www.congreso.es/docbienes/leg15/000270/000270_000_e_0001130_20230814.pdf
+277,José Alberto Herrero Bono,14/08/2023,https://www.congreso.es/docbienes/leg15/000269/000269_000_e_0001126_20230814.pdf
+281,María del Mar Sánchez Sierra,14/08/2023,https://www.congreso.es/docbienes/leg15/000272/000272_000_e_0001148_20230814.pdf
+282,Eduardo Carazo Hermoso,14/08/2023,https://www.congreso.es/docbienes/leg15/000273/000273_000_e_0001155_20230814.pdf
+283,María de la Cabeza Ruiz Solás,14/08/2023,https://www.congreso.es/docbienes/leg15/000274/000274_000_e_0001162_20230814.pdf
+284,Rocío De Meer Méndez,14/08/2023,https://www.congreso.es/docbienes/leg15/000278/000278_000_e_0001171_20230814.pdf
+287,Oskar Matute García de Jalón,14/08/2023,https://www.congreso.es/docbienes/leg15/000282/000282_000_e_0001187_20230814.pdf
+288,Isabel Pozueta Fernández,14/08/2023,https://www.congreso.es/docbienes/leg15/000283/000283_000_e_0001188_20230814.pdf
+290,Jon Iñarritu García,14/08/2023,https://www.congreso.es/docbienes/leg15/000280/000280_000_e_0001180_20230814.pdf
+291,Marije Fullaondo la Cruz,14/08/2023,https://www.congreso.es/docbienes/leg15/000284/000284_000_e_0001190_20230814.pdf
+292,Javier Sánchez Serna,14/08/2023,https://www.congreso.es/docbienes/leg15/000279/000279_000_e_0001174_20230814.pdf
+293,Patricia Rueda Perelló,14/08/2023,https://www.congreso.es/docbienes/leg15/000277/000277_000_e_0001169_20230814.pdf
+293,Patricia Rueda Perelló,27/09/2024,https://www.congreso.es/docbienes/leg15/000277/000277_001_e_0042121_20240927.pdf
+293,Patricia Rueda Perelló,30/10/2024,https://www.congreso.es/docbienes/leg15/000277/000277_001_e_0046638_20241030.pdf
+294,Ricardo Chamorro Delmo,14/08/2023,https://www.congreso.es/docbienes/leg15/000287/000287_000_e_0001201_20230814.pdf
+296,Alejandro Soler Mur,14/08/2023,https://www.congreso.es/docbienes/leg15/000281/000281_000_e_0001182_20230814.pdf
+297,Luis María Beamonte Mesa,14/08/2023,https://www.congreso.es/docbienes/leg15/000291/000291_000_e_0001212_20230814.pdf
+297,Luis María Beamonte Mesa,13/11/2024,https://www.congreso.es/docbienes/leg15/000291/000291_001_e_0048419_20241113.pdf
+298,Alfonso Carlos Macías Gata,14/08/2023,https://www.congreso.es/docbienes/leg15/000285/000285_000_e_0001194_20230814.pdf
+299,Antonio Cavacasillas Rodríguez,14/08/2023,https://www.congreso.es/docbienes/leg15/000288/000288_000_e_0001205_20230814.pdf
+300,Mertxe Aizpurua Arzallus,14/08/2023,https://www.congreso.es/docbienes/leg15/000286/000286_000_e_0001200_20230814.pdf
+300,Mertxe Aizpurua Arzallus,16/08/2023,https://www.congreso.es/docbienes/leg15/000286/000286_001_e_0001422_20230816.pdf
+303,Maribel Vaquero Montero,16/08/2023,https://www.congreso.es/docbienes/leg15/000297/000297_000_e_0001240_20230816.pdf
+303,Maribel Vaquero Montero,26/06/2025,https://www.congreso.es/docbienes/leg15/000297/000297_001_e_0074574_20250626.pdf
+305,Joseba Andoni Agirretxea Urresti,16/08/2023,https://www.congreso.es/docbienes/leg15/000296/000296_000_e_0001239_20230816.pdf
+306,Mikel Legarda Uriarte,18/08/2023,https://www.congreso.es/docbienes/leg15/000345/000345_000_e_0001476_20230818.pdf
+307,María de los Reyes Romero Vilches,16/08/2023,https://www.congreso.es/docbienes/leg15/000295/000295_000_e_0001238_20230816.pdf
+309,Idoia Sagastizabal Unzetabarrenetxea,16/08/2023,https://www.congreso.es/docbienes/leg15/000298/000298_000_e_0001246_20230816.pdf
+310,Verónica Martínez Barbero,16/08/2023,https://www.congreso.es/docbienes/leg15/000303/000303_000_e_0001269_20230816.pdf
+311,Agustín Santos Maraver,16/08/2023,https://www.congreso.es/docbienes/leg15/000304/000304_000_e_0001270_20230816.pdf
+312,Gabriel Rufián Romero,16/08/2023,https://www.congreso.es/docbienes/leg15/000299/000299_000_e_0001249_20230816.pdf
+312,Gabriel Rufián Romero,28/01/2026,https://www.congreso.es/docbienes/leg15/000299/000299_001_e_0096087_20260128.pdf
+314,Concepción Gamarra Ruiz-Clavijo,16/08/2023,https://www.congreso.es/docbienes/leg15/000301/000301_000_e_0001257_20230816.pdf
+315,Cayetana Álvarez de Toledo Peralta-Ramos,16/08/2023,https://www.congreso.es/docbienes/leg15/000311/000311_000_e_0001306_20230816.pdf
+316,Alberto Asarta Cuevas,14/09/2023,https://www.congreso.es/docbienes/leg15/000349/000349_000_e_0001697_20230914.pdf
+317,Santiago Abascal Conde,16/08/2023,https://www.congreso.es/docbienes/leg15/000316/000316_000_e_0001326_20230816.pdf
+317,Santiago Abascal Conde,21/09/2023,https://www.congreso.es/docbienes/leg15/000316/000316_001_e_0001872_20230921.pdf
+318,Joaquín Robles López,16/08/2023,https://www.congreso.es/docbienes/leg15/000305/000305_000_e_0001271_20230816.pdf
+319,María Soledad Cruz-Guzmán García,16/08/2023,https://www.congreso.es/docbienes/leg15/000306/000306_000_e_0001289_20230816.pdf
+320,Milagros Marcos Ortega,16/08/2023,https://www.congreso.es/docbienes/leg15/000310/000310_000_e_0001296_20230816.pdf
+321,Noelia Cobo Pérez,16/08/2023,https://www.congreso.es/docbienes/leg15/000315/000315_000_e_0001321_20230816.pdf
+323,Miguel Ángel Paniagua Núñez,16/08/2023,https://www.congreso.es/docbienes/leg15/000308/000308_000_e_0001293_20230816.pdf
+324,Manuel Cobo Vega,16/08/2023,https://www.congreso.es/docbienes/leg15/000314/000314_000_e_0001314_20230816.pdf
+325,Francisco Javier Ortega Smith-Molina,16/08/2023,https://www.congreso.es/docbienes/leg15/000309/000309_000_e_0001294_20230816.pdf
+325,Francisco Javier Ortega Smith-Molina,04/12/2024,https://www.congreso.es/docbienes/leg15/000309/000309_001_e_0050658_20241204.pdf
+327,Aina Vidal Sáez,16/08/2023,https://www.congreso.es/docbienes/leg15/000313/000313_000_e_0001313_20230816.pdf
+328,Gerardo Pisarello Prados,16/08/2023,https://www.congreso.es/docbienes/leg15/000318/000318_000_e_0001338_20230816.pdf
+329,Eloi Badia Casas,16/08/2023,https://www.congreso.es/docbienes/leg15/000322/000322_000_e_0001352_20230816.pdf
+331,Carina Mejías Sánchez,19/09/2023,https://www.congreso.es/docbienes/leg15/000351/000351_000_e_0001785_20230919.pdf
+332,Júlia Boada Danés,16/08/2023,https://www.congreso.es/docbienes/leg15/000325/000325_000_e_0001363_20230816.pdf
+332,Júlia Boada Danés,13/09/2023,https://www.congreso.es/docbienes/leg15/000325/000325_001_e_0001689_20230913.pdf
+334,Ana Isabel Alós López,16/08/2023,https://www.congreso.es/docbienes/leg15/000319/000319_000_e_0001347_20230816.pdf
+338,Teslem Andala Ubbi,16/08/2023,https://www.congreso.es/docbienes/leg15/000329/000329_000_e_0001380_20230816.pdf
+339,Juan Luis Pedreño Molina,16/08/2023,https://www.congreso.es/docbienes/leg15/000328/000328_000_e_0001376_20230816.pdf
+340,Esther Llamazares Domingo,16/08/2023,https://www.congreso.es/docbienes/leg15/000321/000321_000_e_0001350_20230816.pdf
+341,María Eugenia Carballedo Berlanga,16/08/2023,https://www.congreso.es/docbienes/leg15/000331/000331_000_e_0001386_20230816.pdf
+342,Yolanda Díaz Pérez,16/08/2023,https://www.congreso.es/docbienes/leg15/000324/000324_000_e_0001361_20230816.pdf
+344,María José Rodríguez de Millán Parro,16/08/2023,https://www.congreso.es/docbienes/leg15/000337/000337_000_e_0001408_20230816.pdf
+345,Carlos Hernández Quero,16/08/2023,https://www.congreso.es/docbienes/leg15/000336/000336_000_e_0001402_20230816.pdf
+346,Alberto Núñez Feijóo,16/08/2023,https://www.congreso.es/docbienes/leg15/000332/000332_000_e_0001389_20230816.pdf
+347,Marta Varela Pazos,16/08/2023,https://www.congreso.es/docbienes/leg15/000334/000334_000_e_0001397_20230816.pdf
+348,Aurora Nacarino-Brabo Jiménez,16/08/2023,https://www.congreso.es/docbienes/leg15/000341/000341_000_e_0001417_20230816.pdf
+349,Francisco José Conde López,16/08/2023,https://www.congreso.es/docbienes/leg15/000340/000340_000_e_0001415_20230816.pdf
+350,Pablo Hispán Iglesias de Ussel,16/08/2023,https://www.congreso.es/docbienes/leg15/000342/000342_000_e_0001420_20230816.pdf
+351,Mirian Guardiola Salmerón,17/10/2023,https://www.congreso.es/docbienes/leg15/000352/000352_000_e_0002620_20231017.pdf
+352,Ignasi Conesa Coma,19/09/2023,https://www.congreso.es/docbienes/leg15/000350/000350_000_e_0001781_20230919.pdf
+353,José Losada Fernández,28/11/2023,https://www.congreso.es/docbienes/leg15/000353/000353_000_e_0004931_20231128.pdf
+353,José Losada Fernández,22/01/2025,https://www.congreso.es/docbienes/leg15/000353/000353_001_e_0054218_20250122.pdf
+353,José Losada Fernández,25/06/2026,https://www.congreso.es/docbienes/leg15/000353/000353_001_e_0120996_20260625.pdf
+354,Juan Antonio Lorenzo Cazorla,28/11/2023,https://www.congreso.es/docbienes/leg15/000354/000354_000_e_0004933_20231128.pdf
+354,Juan Antonio Lorenzo Cazorla,19/05/2026,https://www.congreso.es/docbienes/leg15/000354/000354_001_e_0115059_20260519.pdf
+355,Javier Rodríguez Palacios,05/12/2023,https://www.congreso.es/docbienes/leg15/000355/000355_000_e_0005732_20231205.pdf
+357,Víctor Gutiérrez Santiago,19/12/2023,https://www.congreso.es/docbienes/leg15/000359/000359_000_e_0006621_20231219.pdf
+358,Alba Soldevilla Novials,20/12/2023,https://www.congreso.es/docbienes/leg15/000365/000365_000_e_0006665_20231220.pdf
+359,Esther Rodríguez Suárez,20/12/2023,https://www.congreso.es/docbienes/leg15/000362/000362_000_e_0006659_20231220.pdf
+361,Mª Isabel Moreno Fernández,20/12/2023,https://www.congreso.es/docbienes/leg15/000363/000363_000_e_0006661_20231220.pdf
+362,Víctor Javier Ruiz de Diego,19/12/2023,https://www.congreso.es/docbienes/leg15/000358/000358_000_e_0006619_20231219.pdf
+362,Víctor Javier Ruiz de Diego,25/09/2024,https://www.congreso.es/docbienes/leg15/000358/000358_001_e_0041818_20240925.pdf
+363,Alberto Mayoral de Lamo,19/12/2023,https://www.congreso.es/docbienes/leg15/000361/000361_000_e_0006625_20231219.pdf
+363,Alberto Mayoral de Lamo,12/11/2025,https://www.congreso.es/docbienes/leg15/000361/000361_001_e_0088688_20251112.pdf
+364,Víctor Camino Miñana,19/12/2023,https://www.congreso.es/docbienes/leg15/000360/000360_000_e_0006623_20231219.pdf
+365,Cristina López Zamora,20/12/2023,https://www.congreso.es/docbienes/leg15/000364/000364_000_e_0006663_20231220.pdf
+366,Jesús Mayoral Pérez,19/12/2023,https://www.congreso.es/docbienes/leg15/000356/000356_000_e_0006531_20231219.pdf
+367,Emilia Almodóvar Sánchez,19/12/2023,https://www.congreso.es/docbienes/leg15/000357/000357_000_e_0006617_20231219.pdf
+368,María Torres Tejada,18/01/2024,https://www.congreso.es/docbienes/leg15/000370/000370_000_e_0008500_20240118.pdf
+369,Josep Paré Aregall,09/01/2024,https://www.congreso.es/docbienes/leg15/000368/000368_000_e_0007832_20240109.pdf
+370,Marta Gracia Blanco,16/01/2024,https://www.congreso.es/docbienes/leg15/000369/000369_000_e_0008387_20240116.pdf
+371,Rocío Aguirre Gil de Biedma,23/01/2024,https://www.congreso.es/docbienes/leg15/000371/000371_000_e_0008921_20240123.pdf
+372,Candela López Tagliafico,30/01/2024,https://www.congreso.es/docbienes/leg15/000372/000372_000_e_0009914_20240130.pdf
+373,José Enrique Núñez Guijarro,31/01/2024,https://www.congreso.es/docbienes/leg15/000373/000373_000_e_0010136_20240131.pdf
+373,José Enrique Núñez Guijarro,19/11/2025,https://www.congreso.es/docbienes/leg15/000373/000373_001_e_0089577_20251119.pdf
+374,Edurne Uriarte Bengoechea,07/02/2024,https://www.congreso.es/docbienes/leg15/000375/000375_000_e_0010821_20240207.pdf
+375,Manuel Lago Peñas,06/02/2024,https://www.congreso.es/docbienes/leg15/000374/000374_000_e_0010624_20240206.pdf
+376,Olvido De la Rosa Baena,20/02/2024,https://www.congreso.es/docbienes/leg15/000376/000376_000_e_0012168_20240220.pdf
+376,Olvido De la Rosa Baena,30/12/2024,https://www.congreso.es/docbienes/leg15/000376/000376_001_e_0053187_20241230.pdf
+377,Patricia Otero Rodríguez,12/03/2024,https://www.congreso.es/docbienes/leg15/000377/000377_000_e_0016001_20240312.pdf
+378,Carmelo Barrio Baroja,10/04/2024,https://www.congreso.es/docbienes/leg15/000379/000379_000_e_0020418_20240410.pdf
+380,María Montserrat García Chavarría,23/04/2024,https://www.congreso.es/docbienes/leg15/000380/000380_000_e_0022508_20240423.pdf
+381,Guillermo Hita Téllez,11/06/2024,https://www.congreso.es/docbienes/leg15/000381/000381_000_e_0029253_20240611.pdf
+382,Juan Andrés Bayón Rolo,25/06/2024,https://www.congreso.es/docbienes/leg15/000383/000383_000_e_0031711_20240625.pdf
+382,Juan Andrés Bayón Rolo,22/07/2025,https://www.congreso.es/docbienes/leg15/000383/000383_001_e_0076475_20250722.pdf
+383,María Elisa Vedrina Conesa,18/06/2024,https://www.congreso.es/docbienes/leg15/000382/000382_000_e_0030900_20240618.pdf
+384,María Sainz Martín,26/06/2024,https://www.congreso.es/docbienes/leg15/000384/000384_000_e_0031941_20240626.pdf
+384,María Sainz Martín,13/02/2026,https://www.congreso.es/docbienes/leg15/000384/000384_001_e_0099341_20260213.pdf
+385,Cristina Moreno Borrás,11/07/2024,https://www.congreso.es/docbienes/leg15/000385/000385_000_e_0033920_20240711.pdf
+386,Mercedes Otero García,22/07/2024,https://www.congreso.es/docbienes/leg15/000386/000386_000_e_0034512_20240722.pdf
+387,Oriol Almirón Ruiz,16/09/2024,https://www.congreso.es/docbienes/leg15/000388/000388_000_e_0038092_20240916.pdf
+388,Andrea Canelo Matito,10/09/2024,https://www.congreso.es/docbienes/leg15/000387/000387_000_e_0037563_20240910.pdf
+389,Josep Pagès i Massó,12/12/2024,https://www.congreso.es/docbienes/leg15/000392/000392_000_e_0051602_20241212.pdf
+390,Vicente Montávez Aguillaume,19/09/2024,https://www.congreso.es/docbienes/leg15/000389/000389_000_e_0038930_20240919.pdf
+391,Ainhoa Molina León,,
+392,Etna Estrems Fayos,14/02/2025,https://www.congreso.es/docbienes/leg15/000395/000395_000_e_0056607_20250214.pdf
+393,Alda Recas Martín,05/11/2024,https://www.congreso.es/docbienes/leg15/000390/000390_000_e_0047082_20241105.pdf
+393,Alda Recas Martín,27/02/2025,https://www.congreso.es/docbienes/leg15/000390/000390_001_e_0058459_20250227.pdf
+394,Jonay Quintero Hernández,10/12/2024,https://www.congreso.es/docbienes/leg15/000391/000391_000_e_0051010_20241210.pdf
+395,Raúl Cuevas Larrosa,09/01/2025,https://www.congreso.es/docbienes/leg15/000393/000393_000_e_0053437_20250109.pdf
+395,Raúl Cuevas Larrosa,15/04/2026,https://www.congreso.es/docbienes/leg15/000393/000393_001_e_0110831_20260415.pdf
+396,Luis Antonio Gómez Piña,18/02/2025,https://www.congreso.es/docbienes/leg15/000394/000394_000_e_0056886_20250218.pdf
+397,Viviane Ogou i Corbi,19/02/2025,https://www.congreso.es/docbienes/leg15/000396/000396_000_e_0057138_20250219.pdf
+398,Mikel Otero Gabirondo,27/05/2025,https://www.congreso.es/docbienes/leg15/000398/000398_000_e_0069775_20250527.pdf
+399,Nerea Renteria Lasanta,08/05/2025,https://www.congreso.es/docbienes/leg15/000397/000397_000_e_0067526_20250508.pdf
+400,Gabriel Blanco Arrúe,11/06/2025,https://www.congreso.es/docbienes/leg15/000399/000399_000_e_0072247_20250611.pdf
+401,Iván Cacho Isla,19/06/2025,https://www.congreso.es/docbienes/leg15/000400/000400_000_e_0073474_20250619.pdf
+402,Carlos Simarro Vicens,11/12/2025,https://www.congreso.es/docbienes/leg15/000404/000404_000_e_0092588_20251211.pdf
+403,Pablo Antuñano Colina,01/08/2025,https://www.congreso.es/docbienes/leg15/000401/000401_000_e_0077117_20250801.pdf
+404,María Elvira Rodríguez Herrer,16/09/2025,https://www.congreso.es/docbienes/leg15/000403/000403_000_e_0079968_20250916.pdf
+405,Irene Jódar Pérez,09/09/2025,https://www.congreso.es/docbienes/leg15/000402/000402_000_e_0078912_20250909.pdf
+406,Evarist Aznar Teruel,28/01/2026,https://www.congreso.es/docbienes/leg15/000405/000405_000_e_0096089_20260128.pdf
+407,Ana González Herdaro,05/02/2026,https://www.congreso.es/docbienes/leg15/000406/000406_000_e_0097697_20260205.pdf
+408,Laura Vergara Román,20/02/2026,https://www.congreso.es/docbienes/leg15/000407/000407_000_e_0101047_20260220.pdf
+409,Inmaculada Marín Aparicio,09/06/2026,https://www.congreso.es/docbienes/leg15/000408/000408_000_e_0118377_20260609.pdf
+410,Brígida Pachón Martín,11/06/2026,https://www.congreso.es/docbienes/leg15/000409/000409_000_e_0118719_20260611.pdf

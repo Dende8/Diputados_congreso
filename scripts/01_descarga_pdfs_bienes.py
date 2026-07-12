@@ -9,19 +9,18 @@ Lógica:
    la ficha pública de cada uno CON SELENIUM (el contenido se inyecta con
    JavaScript, confirmado: el HTML crudo de `requests` siempre devuelve la
    misma plantilla vacía de 1977 caracteres, sin los datos de la ficha).
-3. Parsear de cada ficha ya renderizada: el nombre del diputado y los enlaces a
-   "Declaración de Bienes y Rentas" (puede haber varias, una por fecha).
+3. Parsear de cada ficha ya renderizada: el nombre del diputado y TODOS los enlaces
+   a "Declaración de Bienes y Rentas" (puede haber varias, una por fecha de
+   actualización) — se conservan todas, no solo la más reciente, porque pueden
+   complementarse para tener una visión más completa del patrimonio a lo largo
+   de la legislatura.
 4. Cruzar por nombre normalizado con el CSV de activos, quedándonos solo con esos 350.
-5. Guardar un CSV puente (codigos_diputados.csv) con nombre, codParlamentario y
-   URL del PDF más reciente.
-6. Descargar cada PDF con `requests` (los PDFs sí son enlaces directos, sin JS).
+5. Guardar un CSV puente (codigos_diputados.csv) con UNA FILA POR CADA DECLARACIÓN
+   (mismo diputado puede aparecer varias veces, una por fecha).
+6. Descargar cada PDF con `requests` (los PDFs sí son enlaces directos, sin JS),
+   nombrado como "{codParlamentario}_{fecha}.pdf" para no sobrescribir declaraciones
+   distintas del mismo diputado.
 
-IMPORTANTE:
-- Necesitas Google Chrome instalado y el paquete `selenium` (Selenium Manager,
-  incluido desde Selenium 4.6+, descarga el chromedriver automáticamente).
-- Cargar ~450 páginas con un navegador real es mucho más lento que con
-  `requests` (varios segundos por ficha). Prueba siempre primero con el rango
-  reducido antes de lanzar el completo.
 """
 
 import re
@@ -52,7 +51,7 @@ FICHA_URL = (
     "&codParlamentario={cod}&idLegislatura=XV"
 )
 
-RANGO_COD_PARLAMENTARIO = range(315, 320)  # cambiar a range(1, 451) cuando funcione bien
+RANGO_COD_PARLAMENTARIO = range(1, 451)
 PAUSA_ENTRE_PETICIONES = 0.3  # cortesía con el servidor, entre cargas de Selenium
 TIMEOUT_CARGA_FICHA = 10  # segundos que espera Selenium a que aparezca el contenido
 TIMEOUT_DESCARGA_PDF = 15
@@ -145,17 +144,11 @@ def parsear_ficha(html: str):
     return nombre, enlaces_bienes
 
 
-def mas_reciente(enlaces_bienes):
-    """De la lista de (fecha, url), devuelve la URL con fecha más reciente."""
-    if not enlaces_bienes:
-        return None
-    def parse_fecha(f):
-        d, m, a = f.split("/")
-        return (int(a), int(m), int(d))
-    return sorted(enlaces_bienes, key=lambda x: parse_fecha(x[0]))[-1][1]
-
-
 def recolectar_fichas():
+    """
+    Devuelve un DataFrame con UNA FILA POR CADA DECLARACIÓN DE BIENES encontrada
+    (un diputado puede tener varias, por distintas fechas de actualización).
+    """
     nombres_activos = cargar_activos()
     resultados = []
 
@@ -183,13 +176,24 @@ def recolectar_fichas():
                 time.sleep(PAUSA_ENTRE_PETICIONES)
                 continue
 
-            url_pdf_reciente = mas_reciente(enlaces_bienes)
-            resultados.append({
-                "codParlamentario": cod,
-                "nombre": nombre,
-                "url_pdf_bienes": url_pdf_reciente,
-                "num_declaraciones_encontradas": len(enlaces_bienes),
-            })
+            if not enlaces_bienes:
+                print(f"[cod={cod}] {nombre}: sin declaraciones de bienes publicadas")
+                resultados.append({
+                    "codParlamentario": cod,
+                    "nombre": nombre,
+                    "fecha_declaracion": None,
+                    "url_pdf_bienes": None,
+                })
+                time.sleep(PAUSA_ENTRE_PETICIONES)
+                continue
+
+            for fecha, url_pdf in enlaces_bienes:
+                resultados.append({
+                    "codParlamentario": cod,
+                    "nombre": nombre,
+                    "fecha_declaracion": fecha,
+                    "url_pdf_bienes": url_pdf,
+                })
             print(f"[cod={cod}] OK: {nombre} ({len(enlaces_bienes)} declaraciones)")
 
             time.sleep(PAUSA_ENTRE_PETICIONES)
@@ -206,11 +210,13 @@ def descargar_pdfs(df: pd.DataFrame):
     session.headers.update({"Referer": "https://www.congreso.es/es/busqueda-de-diputados"})
 
     for _, fila in df.iterrows():
-        if not fila["url_pdf_bienes"]:
+        if pd.isna(fila["url_pdf_bienes"]) or pd.isna(fila["fecha_declaracion"]):
             print(f"[cod={fila['codParlamentario']}] sin PDF de bienes, se salta")
             continue
 
-        destino = PDFS_DIR / f"{fila['codParlamentario']}.pdf"
+        # fecha_declaracion viene como "dd/mm/aaaa" -> "dd-mm-aaaa" para nombre de fichero
+        fecha_fichero = fila["fecha_declaracion"].replace("/", "-")
+        destino = PDFS_DIR / f"{fila['codParlamentario']}_{fecha_fichero}.pdf"
         if destino.exists():
             continue  # ya descargado, no repetir
 
